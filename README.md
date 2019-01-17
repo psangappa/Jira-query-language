@@ -28,9 +28,10 @@ You can also use parentheses to group clauses, so that you can apply the NOT ope
 
 **There are a few JQL syntax bits to get you started:**
 
-AND --- allows you to add qualifiers to a list
-!= Thing --- target one thing
-is in (List, Of, Things) --- target a bunch of things (Done, Closed, Resolved) typically
-not in (List, of, Things) --- do not include a bunch of things
--1w --- relative time. You can also use -1d for day
-"2015/3/15" --- specific dates
+* AND --- allows you to add qualifiers to a list
+
+* != Thing --- target one thing
+* is in (List, Of, Things) --- target a bunch of things (Done, Closed, Resolved) typically
+* not in (List, of, Things) --- do not include a bunch of things
+* -1w --- relative time. You can also use -1d for day
+* "2015/3/15" --- specific dates
